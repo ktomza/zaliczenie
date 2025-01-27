@@ -10,18 +10,18 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link rel="icon" href="Favicon.png" type="image/png"> 
 </head>
-<body class="bg-gray-100 font-sans">
+<body class="bg-indigo-50 font-sans">
     <!-- Nagłówek -->
-    <header class="bg-gradient-to-r from-black to-gray text-white p-6 text-center shadow-lg">
+    <header class="bg-gradient-to-r from-indigo-200 to-indigo-900 text-white p-6 text-center shadow-lg">
         <h1 class="text-4xl font-extrabold">Opowieść o Marysi i Heniu</h1>
         <p class="text-lg italic pt-4">Poznaj niezwykłe historie oraz uroki Ińska</p>
     </header>
 
     <!-- Nawigacja -->
-    <nav class="flex justify-center bg-gray-100 shadow-md py-4">
+    <nav class="flex justify-center bg-indigo-100 shadow-md py-4">
         <ul class="flex space-x-8 text-lg">
             <li>
-                <a href="#" class="flex items-center text-gray-700 hover:text-blue-600 font-semibold" onclick="showSection('home')">
+                <a href="#" class="flex items-center text-gray-700 hover:text-indigo-600 font-semibold" onclick="showSection('home')">
                 <i class="fas fa-home mr-2"></i>Strona Główna</a>
             </li>
             <li>
@@ -36,33 +36,36 @@
     </nav>
 
     <!-- Główna zawartość -->
-    <main class="p-8">
+    <main class="p-8 bg-indigo-50">
         <!-- Sekcja Strona Główna -->
-        <section id="home" class="bg-white p-6 rounded-lg shadow-md fade-in space-y-4">
-            <h2 class="text-3xl font-bold mb-4 text-gray-700">Witaj w rodzinie Tomza!</h2>
-<p class="text-gray-700 text-lg"> Historia mojej Babci Marysi i Dziadka Henia jest pełna miłości, poświęcenia i mądrości. Babcia piecze pyszne ciasta, natomiast Dziadek to pasjonat ogrodnictwa. Razem tworzą wyjątkową parę, która swoim przykładem pokazuje, jak piękne jest życie pełne wspólnych chwil i pamięci o przeszłości. Powyżej znajdziesz także zakładkę o urokliwym miasteczku, w którym mieszkają.<br>Ich miłość stała się symbolem tego, że czasami najpiękniejsze historie zaczynają się od najprostszych chwil. Ta sytuacja jest dla mnie przykładem tego, że prawdziwe uczucia i wzajemny szacunek mogą stworzyć piękną relację na lata.</p>
-            <img src="jaidziadek.jpeg" alt="jaidziadek" class="rounded-lg shadow-lg mx-auto w-128 h-96 object-contain">
+        <section id="home" class="bg-white p-6 rounded-lg shadow-md space-y-4">
+            <h2 class="text-3xl font-bold mb-4 text-indigo-800">Witaj w rodzinie Tomza!</h2>
+<p class="text-indigo-700 text-lg">Historia mojej Babci Marysi i Dziadka Henia jest naprawdę wyjątkowa i pełna inspiracji. Ich miłość nie tylko przetrwała wiele lat, ale również była pełna drobnych gestów, które na zawsze pozostaną w mojej pamięci.<br>Babcia Marysia to osoba, której serce przepełnione jest pasją do gotowania, a zwłaszcza do pieczenia. W kuchni spędza godziny, przygotowując pyszne ciasta, które nie tylko smakują wyjątkowo, ale również niosą ze sobą zapach wspólnych chwil spędzonych w domu.<br>Dziadek Henio to z kolei człowiek, którego życie jest związane z naturą. To pasjonat ogrodnictwa, który nie potrafi usiedzieć w miejscu, jeśli nie ma wokół siebie roślin. Ogród Dziadka Henia jest jak jego mały raj, pełen kolorów, zapachów i życia.<br>I choć minęło już wiele lat, ich uczucie wciąż rośnie i kwitnie. Babcia Marysia i Dziadek Henio są dla mnie przykładem, że prawdziwa miłość nie tylko przetrwa wszystkie trudności, ale także będzie rosła w siłę z każdą kolejną wspólną chwilą.<br>Ich miłość stała się symbolem tego, że czasami najpiękniejsze historie zaczynają się od najprostszych chwil. Ta sytuacja jest dla mnie przykładem tego, że prawdziwe uczucia i wzajemny szacunek mogą stworzyć piękną relację na lata.</p>
+<div class="flex justify-center items-center gap-4">
+  <img src="babcia.png" alt="babcia" class="rounded-full shadow-lg w-32 h-32 object-cover">
+  <img src="jaidziadek.jpeg" alt="jaidziadek" class="rounded-lg shadow-lg w-96 h-86 object-cover">
+  <img src="dziadek.jpg" alt="dziadek" class="rounded-full shadow-lg w-32 h-32 object-cover">
+</div>
 
-    <p class="text-gray-700 mt-4">Serdecznie zapraszam!</p>
+    <p class="text-indigo-700 mt-4">Serdecznie zapraszam!</p>
         </section>
 
         <!-- Sekcja Moi dziadkowie -->
         <section id="story" class="hidden bg-white p-6 rounded-lg shadow-md fade-in">
-        <h2 class="text-3xl font-bold mb-4 text-gray-750">Pierwsze spotkanie</h2>
-            <p class="text-gray-700 text-lg">Historia miłości Marysi i Henia zaczyna się w 1976 roku w sercu Śląska, w Rudzie Śląskiej, gdzie Babcia mieszkała razem z rodzicami i rodzeństwem.<br>Babcia Marysia, była sprzedawczynią w kiosku, który stał się miejscem codziennych spotkań mieszkańców. Od zawsze była pełną energii i serdeczności osobą. <br>Dziadek Henio pochodzi z okolic Ińska. Opowiada najciekawsze historie i pięknie śpiewa. Natomiast na Śląsk wyjechał do pracy w kopalni.<br>Aż tak pewnego dnia, chcąc kupić papierosy w najbliższym kiosku, pierwszy raz się spotkali. Od tamtej wizyty Dziadek odwiedzał kiosk coraz częściej i to wcale nie po to, aby kupić kolejną paczkę:)<br> Dziś wspólnie przeżywają każdą chwilę, z dumą patrząc na wszystko, co razem zbudowali.</p><br>
-        <h2 class="text-3xl font-bold mb-4 text-gray-750">Ślub i początki małżeństwa</h2>
-        <p class="text-gray-700 text-lg">W zimę 1977 roku, Marysia i Henio zdecydowali się na kolejny ważny krok – stanęli na ślubnym kobiercu. <br>Dzięki tej decyzji, 26 grudnia ochodzimy ich rocznicę ślubu w rodzinnym, świątecznym gronie. Wkrótce po ślubie, z początkiem 1978 roku, postanowili przeprowadzić się do malowniczego Ińska.<br> W kwietniu przyszła na świat ich pierwsza pociecha- mój Tata. To był moment pełen radości, który jeszcze bardziej umocnił ich więź.<br>Nie czekali długo na drugie dziecko, ponieważ w maju 1979 roku Babcia urodziła moją ciocię.   </p>
+        <h2 class="text-3xl font-bold mb-4 text-indigo-800">Pierwsze spotkanie</h2>
+            <p class="text-indigo-700 text-lg">Historia miłości Marysi i Henia zaczyna się w 1976 roku w sercu Śląska, w Rudzie Śląskiej, gdzie Babcia mieszkała razem z rodzicami i rodzeństwem.<br>Babcia Marysia, była sprzedawczynią w kiosku, który stał się miejscem codziennych spotkań mieszkańców. Od zawsze była pełną energii i serdeczności osobą. <br>Dziadek Henio pochodzi z okolic Ińska. Opowiada najciekawsze historie i pięknie śpiewa. Natomiast na Śląsk wyjechał do pracy w kopalni.<br>Aż tak pewnego dnia, chcąc kupić papierosy w najbliższym kiosku, pierwszy raz się spotkali. Od tamtej wizyty Dziadek odwiedzał kiosk coraz częściej i to wcale nie po to, aby kupić kolejną paczkę :)<br> Dziś wspólnie przeżywają każdą chwilę, z dumą patrząc na wszystko, co razem zbudowali.</p><br>
+        <h2 class="text-3xl font-bold mb-4 text-indigo-800">Ślub i początki małżeństwa</h2>
+        <p class="text-indigo-700  text-lg">W zimę 1977 roku, Marysia i Henio zdecydowali się na kolejny ważny krok – stanęli na ślubnym kobiercu. <br>Dzięki tej decyzji, 26 grudnia ochodzimy ich rocznicę ślubu w rodzinnym, świątecznym gronie. Wkrótce po ślubie, z początkiem 1978 roku, postanowili przeprowadzić się do malowniczego Ińska.<br> W kwietniu przyszła na świat ich pierwsza pociecha- mój Tata. To był moment pełen radości, który jeszcze bardziej umocnił ich więź.<br>Nie czekali długo na drugie dziecko, ponieważ w maju 1979 roku Babcia urodziła moją ciocię.   </p>
             <img src="slub.jpeg" alt="slub" class="rounded-lg  shadow-lg w-80 h-auto mx-auto hover;scale-105 transition-transform duration-300 mx-auto my-12 object-contain">
-        <h2 class="text-3xl font-bold mb-4 text-gray-750">Co słychać u nich teraz?</h2>
-            <p class="text-gray-700 text-lg">Dziś, po 48 latach, zamieszkują w uroczym domku nad jeziorem, który stał się ich prawdziwym rajem. Doczekali się czterech ukochanych wnuczek.<br> Otoczeni naturą, cieszą się spokojem i harmonią. <br>Babcia Marysia oddaje się swojej pasji – pieczeniu ciast. Cała okolica zna jej wypieki, które z radością przygotowuje na różne okazje. Jej ciasta są synonimem ciepła domowego ogniska i zawsze smakują wyjątkowo, bo są pieczone z sercem. <br>Dziadek Henio, dba o swój ukochany ogród, szklarnie pełne roślin oraz sad. Praca w ogrodzie to dla niego nie tylko pasja, ale i sposób na uszczęśliwianie innych (w szczególności nas).<br>Nie można zapomnieć o Reksiu, psie, który od 16 lat towarzyszy im w codziennym życiu. Reksio, mimo podeszłego wieku, to zawsze pełen energii, gotowy do zabawy psiak.</p>
+        <h2 class="text-3xl font-bold mb-4 text-indigo-800">Co słychać u nich teraz?</h2>
+            <p class="text-indigo-700  text-lg">Dziś, po 48 latach, zamieszkują w uroczym domku nad jeziorem, który stał się ich prawdziwym rajem. Doczekali się czterech ukochanych wnuczek.<br> Otoczeni naturą, cieszą się spokojem i harmonią. <br>Babcia Marysia oddaje się swojej pasji – pieczeniu ciast. Cała okolica zna jej wypieki, które z radością przygotowuje na różne okazje. Jej ciasta są synonimem ciepła domowego ogniska i zawsze smakują wyjątkowo, bo są pieczone z sercem. <br>Dziadek Henio, dba o swój ukochany ogród, szklarnie pełne roślin oraz sad. Praca w ogrodzie to dla niego nie tylko pasja, ale i sposób na uszczęśliwianie innych (w szczególności nas).<br>Nie można zapomnieć o Reksiu, psie, który od 16 lat towarzyszy im w codziennym życiu. Reksio, mimo podeszłego wieku, to zawsze pełen energii, gotowy do zabawy psiak.</p>
          <img src="reksio.jpeg" alt="reksio" class="rounded-lg mt-4 shadow-md w-96 h-128 mx-auto object-contain">
         </section>
 
  <!-- Sekcja Ińsko -->
         <section id="insko" class="hidden bg-white p-6 rounded-lg shadow-md fade-in">
-            <p class="text-gray-700 text-lg">
-                Ińsko to cudowne miasto położone w województwie zachodniopomorskim, słynące z pięknego jeziora. 
-                Jest ono jednym z najczystszych w Polsce. Miasteczko przyciąga miłośników nurkowania oraz żeglarstwa a w lato jest tu naprawdę gwarno:)<br>Dodatkowo, Ińsko jest znane z corocznego Festiwalu Filmowego, który zrzesza artystów i kinomaniaków z całego kraju.</p>
+<p class="text-indigo-700  text-lg">
+Ińsko to urokliwe miasteczko, które zachwyca swoją atmosferą i naturalnym pięknem. Położone w województwie zachodniopomorskim, stanowi idealne miejsce zarówno do odpoczynku, jak i aktywnego spędzania czasu. W centrum Ińska znajduje się malownicze jezioro, które przyciąga turystów swoim niezwykłym urokiem. Jest to jedno z najczystszych jezior w Polsce, co czyni je wyjątkowym nie tylko pod względem estetycznym, ale także ekologicznym. Dzięki tej czystości, jezioro jest doskonałym miejscem do uprawiania sportów wodnych, takich jak żeglarstwo, windsurfing czy nurkowanie.<br>Co więcej, Ińsko ma także swoją odrębną, artystyczną duszę, którą widać w corocznie organizowanym Festiwalu Filmowym. Jest to wydarzenie, które wciąga artystów, filmowców i kinomaniaków z całego kraju.<br>Warto również wspomnieć o innych atrakcjach turystycznych w Ińsku. Miasteczko oferuje liczne szlaki turystyczne, które prowadzą przez malownicze tereny wokół jeziora i lasów. Jest to idealne miejsce do uprawiania turystyki pieszej, rowerowej, a także dla osób, które lubią spędzać czas na łonie natury. W pobliskich lasach można spotkać liczne gatunki dzikich zwierząt oraz ptaków, a piękne krajobrazy stanowią doskonałą scenerię do odpoczynku i fotografowania.</p>
 <div class="flex flex-wrap justify-center mt-4 space-y-4">
     <div class="flex sm:w-1/2 lg:w-1/3 h-full">
         <img src="IMG_7151.jpeg" alt="jezioro" class="rounded-lg shadow-md w-full h-full object-cover" style="border-radius: 0.5rem;">
@@ -75,18 +78,18 @@
     </div>
 </div>
             <br>
-            <p class="mt-4">
+            <p class="mt-4 text-indigo-700  text-lg">
                 Na temat rozbudowanej historii sięgającej nawet 1231 r., jak i legendy o ińskim raku, warto przeczytać tutaj:  
-                <a href="https://insko.pl/historia.html" target="_blank" class="text-blue-600 hover:underline">strona Ińska</a>.
+                <a href="https://insko.pl/historia.html" target="_blank" class="text-gray-600 hover:underline">strona Ińska</a>.
             </p>
             <div class="text-center mt-6">
-                <a href="https://pl.wikipedia.org/wiki/I%C5%84sko" target="_blank" class="bg-blue-500 text-white px-6 py-2 rounded-full shadow hover:bg-blue-600">Dowiedz się więcej</a>
+                <a href="https://pl.wikipedia.org/wiki/I%C5%84sko" target="_blank" class="bg-gray-500 text-white px-6 py-2 rounded-full shadow hover:bg-gray-500">Dowiedz się więcej</a>
             </div>
         </section>
     </main>
 
     <!-- Stopka -->
-    <footer class="bg-gray-800 text-white text-center p-4 mt-8">
+    <footer class="bg-indigo-900 text-white text-center p-4 mt-8">
         <p>&copy; 2025 Zaliczenie</p>
         <p>Klaudia Tomza</p>
     </footer>
